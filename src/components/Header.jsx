@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { CiSun } from 'react-icons/ci';
+import { FaRegSun } from 'react-icons/fa';
 import { FaRegMoon } from 'react-icons/fa';
 import { VscThreeBars } from 'react-icons/vsc';
 import logo from '../assets/golden-logo-for-site--91x91.png';
@@ -48,7 +48,7 @@ const Header = ({ isDark, toggleTheme }) => {
         className="btn bg-transparent text-4xl md:text-2xl border-0 btn-ghost ease-linear col-span-2"
         onClick={toggleTheme}
       >
-        {isDark ? <FaRegMoon /> : <CiSun />}
+        {isDark ? <FaRegMoon /> : <FaRegSun />}
       </button>
     </div>
   );

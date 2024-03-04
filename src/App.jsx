@@ -2,9 +2,12 @@ import React from 'react';
 import { Header } from './components';
 
 function App() {
-  const [isDark, setIsDark] = React.useState(true);
+  let theme = JSON.parse(localStorage.getItem('theme') || 'true');
+
+  const [isDark, setIsDark] = React.useState(theme);
   const toggleTheme = () => {
     setIsDark(() => !isDark);
+    localStorage.setItem('theme', JSON.stringify(!isDark));
   };
   return (
     <div
