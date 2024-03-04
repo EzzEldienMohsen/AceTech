@@ -7,13 +7,9 @@ import { pages } from '../assets';
 const Header = ({ isDark, toggleTheme }) => {
   return (
     <div className="grid grid-cols-8 md:flex justify-between px-5 py-3 items-center md:px-10 md:py-5">
-      <img src={logo} className="col-span-5" />
+      <img src={logo} className="col-span-6" />
       <div className="dropdown dropdown-end gri md:hidden col-span-1">
-        <div
-          tabIndex={0}
-          role="button"
-          className="btn m-1 bg-transparent text-4xl "
-        >
+        <div tabIndex={0} role="button" className="  border-0  text-4xl ">
           <VscThreeBars />
         </div>
         <ul
@@ -45,7 +41,7 @@ const Header = ({ isDark, toggleTheme }) => {
         })}
       </div>
       <button
-        className="btn bg-transparent text-4xl md:text-2xl border-0 btn-ghost ease-linear col-span-2"
+        className=" border-0  text-4xl md:mr-10 md:text-3xl ease-linear col-span-1"
         onClick={toggleTheme}
       >
         {isDark ? <FaRegMoon /> : <FaRegSun />}
