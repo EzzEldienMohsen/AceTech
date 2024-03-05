@@ -1,6 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.LandingHero {
+  background-image: url('https://acetechmarketing.com/wp-content/uploads/2023/01/3abf1d34-1580-4818-af34-66a302533fad.jpg');
+  background-size: contain;
+  background-position: center;
+}
+
 /* 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

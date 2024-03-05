@@ -4,11 +4,14 @@ import { FaRegMoon } from 'react-icons/fa';
 import { VscThreeBars } from 'react-icons/vsc';
 import logo from '../assets/golden-logo-for-site--91x91.png';
 import { pages } from '../assets';
+import { Link } from 'react-router-dom';
 const Header = ({ isDark, toggleTheme }) => {
   return (
-    <div className="grid grid-cols-8 md:flex justify-between px-5 py-3 items-center md:px-10 md:py-5">
-      <img src={logo} className="col-span-6" />
-      <div className="dropdown dropdown-end gri md:hidden col-span-1">
+    <div className="w-full grid grid-cols-8 gap-4 lg:flex justify-between px-5 py-3 items-center lg:px-10 lg:py-5">
+      <Link to="/">
+        <img src={logo} className="col-span-6 " />
+      </Link>
+      <div className="dropdown dropdown-end col-start-6  lg:hidden col-span-1">
         <div tabIndex={0} role="button" className="  border-0  text-4xl ">
           <VscThreeBars />
         </div>
@@ -19,29 +22,30 @@ const Header = ({ isDark, toggleTheme }) => {
           {pages.map((link) => {
             return (
               <li
-                key={link}
+                key={link.id}
                 className="mr-6 tracking-wide capitalize text-xl font-bold"
               >
-                <a>{link}</a>
+                <Link to={link.to}>{link.title}</Link>
               </li>
             );
           })}
         </ul>
       </div>
-      <div className="hidden justify-between items-center md:flex px-3 mr-10">
+      <div className="hidden justify-between items-center lg:flex px-3 mr-10">
         {pages.map((link) => {
           return (
-            <div
-              key={link}
-              className="mr-6 tracking-wide capitalize text-xl font-bold"
+            <Link
+              key={link.id}
+              to={link.to}
+              className="mr-8 tracking-wide capitalize text-xl font-bold"
             >
-              {link}
-            </div>
+              {link.title}
+            </Link>
           );
         })}
       </div>
       <button
-        className=" border-0  text-4xl md:mr-10 md:text-3xl ease-linear col-span-1"
+        className=" border-0  text-4xl md:mr-8  ease-linear col-start-7 col-span-1"
         onClick={toggleTheme}
       >
         {isDark ? <FaRegMoon /> : <FaRegSun />}
