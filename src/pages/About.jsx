@@ -4,9 +4,9 @@ import { Hero } from '../components';
 const About = () => {
   return (
     <div className="w-full flex-col flex justify-center items-center mb-12 px-5">
-      <Hero backG="LandingAbout" title="who are we?" />
+      <Hero backG="AboutHero" title="who are we?" />
       <div className="w-inherit flex  justify-center items-center mt-4 md:mt-8 lg:mt-12">
-        <h1 className="w-3/5 capitalize flex justify-center items-center tracking-widermb-4  font-extrabold text-2xl md:text-3xl lg:text-5xl">
+        <h1 className="w-3/5 capitalize flex justify-center items-center tracking-wider mb-4  font-extrabold text-2xl md:text-3xl lg:text-5xl">
           We’re a highly collaborative and supportive team, coming together on
           every project to ensure our clients get the very best result.
         </h1>

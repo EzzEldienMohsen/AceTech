@@ -8,8 +8,14 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-.LandingAbout {
+.AboutHero {
   background-image: url('https://acetechmarketing.com/wp-content/uploads/2023/12/7bce600d-9b18-4035-8990-431baa63bdae-1.jpg');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ServicesHero {
+  background-image: url('https://acetechmarketing.com/wp-content/uploads/2023/01/f599414b-f6e5-412f-9583-3b8c7748bc35.jpg');
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;

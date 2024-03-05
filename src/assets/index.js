@@ -92,3 +92,38 @@ export const numbers = [
 ];
 export const who =
   'https://acetechmarketing.com/wp-content/uploads/2023/01/0cd52ee7-ae57-4b1a-8860-91fc642dca87.jpg';
+export const socialManagement = [
+  {
+    id: nanoid(),
+    list: [
+      '8 Social Posts Per Month',
+      '2 custom resize for stories per month',
+      'GIFs, 360°, and Report',
+      '1 Language',
+      'Facebook and Instagram',
+      'Moderation for pages lower than 250K fans',
+    ],
+  },
+  {
+    id: nanoid(),
+    list: [
+      '8 Social Posts Per Month',
+      '4 custom resize for stories per month',
+      'GIFs, 360°, 4 SlideShow Video, and Reports',
+      '2 Language',
+      'Facebook, Instagram, and Linkedin',
+      'Moderation for pages lower than 500K fans',
+    ],
+  },
+  {
+    id: nanoid(),
+    list: [
+      '12 Social Posts Per Month',
+      '6 custom resize for stories per month',
+      'GIFs, 360°, 6 SlideShow Video, and Reports',
+      '2 Language',
+      'Facebook, Instagram, Twitter, Youtube! and Linkedin',
+      'Moderation For pages lower than 1M fans ',
+    ],
+  },
+];
