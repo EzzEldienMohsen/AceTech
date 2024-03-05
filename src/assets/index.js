@@ -80,3 +80,12 @@ export const landingCards = [
     text: 'We will get things done even if it was very specific, wanna audit your campaigns optimizations, or design a referral program, plan a growth hacking strategy just contact us and we will help you with whatever you need.',
   },
 ];
+export const numbers = [
+  { id: nanoid(), number: '100', title: 'Clients With Needs Meet' },
+  { id: nanoid(), number: '20+', title: 'Successful Brands Collaborations' },
+  { id: nanoid(), number: '5+', title: 'Successful Brands' },
+  { id: nanoid(), number: '3+', title: 'E-Commerce And App' },
+  { id: nanoid(), number: '100,000$', title: 'Ads Spending' },
+  { id: nanoid(), number: '500+', title: 'Minutes Of Video Production' },
+  { id: nanoid(), number: '4,000+', title: 'Photos' },
+];
