@@ -1,4 +1,4 @@
-import { socialManagement } from '../assets';
+import { WebEng, WebWord, socialBuying, socialManagement } from '../assets';
 import { Hero, ServiceSection } from '../components';
 
 const Services = () => {
@@ -10,6 +10,24 @@ const Services = () => {
         title="Digital Marketing"
         secondTitle="Social Media Management"
         height={false}
+      />
+      <ServiceSection
+        array={socialBuying}
+        title=""
+        secondTitle="Media Buying"
+        height={true}
+      />
+      <ServiceSection
+        array={WebWord}
+        title="Web Design & Development"
+        secondTitle="Web Design With Dashboard (WordPress)"
+        height={false}
+      />
+      <ServiceSection
+        array={WebEng}
+        title=""
+        secondTitle="SEARCH ENGINE OPTIMIZATION"
+        height={true}
       />
     </div>
   );

@@ -123,7 +123,90 @@ export const socialManagement = [
       'GIFs, 360°, 6 SlideShow Video, and Reports',
       '2 Language',
       'Facebook, Instagram, Twitter, Youtube! and Linkedin',
-      'Moderation For pages lower than 1M fans ',
+      'Moderation For pages lower than 1M fans',
+    ],
+  },
+];
+
+export const socialBuying = [
+  {
+    id: nanoid(),
+    list: [
+      '1 Language',
+      'Facebook and Instagram',
+      'Add account setup and optimization',
+    ],
+  },
+  {
+    id: nanoid(),
+    list: [
+      '2 Languages',
+      'Facebook, Instagram, and Linkedin',
+      'Add account setup and optimization',
+    ],
+  },
+  {
+    id: nanoid(),
+    list: [
+      '2 Languages',
+      'Facebook, Instagram, Twitter, Youtube!, Google Ads, and Linkedin',
+      'Add account setup and optimization',
+    ],
+  },
+];
+
+export const WebWord = [
+  {
+    id: nanoid(),
+    list: [
+      'Unlimited pages',
+      'WordPress Website Builder',
+      'SEO optimized',
+      'Google Tags Integration',
+      '1 Language',
+      '5 mails',
+      'Domain and Shared Hosting',
+    ],
+  },
+  {
+    id: nanoid(),
+    list: [
+      'Unlimited pages',
+      'WordPress Website Builder',
+      'SEO optimized',
+      'Google Tags Integration',
+      '1 Language',
+      '10 mails',
+      'Content writing',
+      'Domain and Shared Hosting',
+    ],
+  },
+  {
+    id: nanoid(),
+    list: [
+      'Unlimited pages',
+      'WordPress Website Builder',
+      'SEO optimized',
+      'Google Tags Integration',
+      '2 Language',
+      '15 mails',
+      'Content writing',
+      'Domain and Shared Hosting',
+    ],
+  },
+];
+
+export const WebEng = [
+  {
+    id: nanoid(),
+    list: [
+      'Unlimited Keyword Optimization',
+      'On-Page and Off-Page Execution',
+      'Keyword Research',
+      'Content Creation (Service and Blog)',
+      '3 Pages and Blog Content Per Month',
+      'Build Links and Indexing',
+      'Monthly Organic Performance Report',
     ],
   },
 ];
