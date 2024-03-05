@@ -40,7 +40,7 @@ const Header = ({ isDark, toggleTheme }) => {
             <Link
               key={link.id}
               to={link.to}
-              className="mr-8 tracking-wide capitalize text-xl font-bold"
+              className="mr-8 tracking-wide hover:bg-primary focus:border-base-content focus:border-2 focus:px-2 focus:py-1  capitalize text-xl font-bold"
             >
               {link.title}
             </Link>

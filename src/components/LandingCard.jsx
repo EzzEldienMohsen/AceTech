@@ -14,7 +14,7 @@ const LandingCard = () => {
               alt="image"
               className="rounded-t-md bg-inherit  w-full h-[380px]"
             />
-            <h1 className="font-semibold text-3xl md:3xl lg:text-3xl leading-2 my-4">
+            <h1 className="font-semibold text-3xl md:3xl lg:text-3xl my-4">
               {card.title}
             </h1>
             <p className="text-xl md:3xl lg:text-2xl">{card.text}</p>

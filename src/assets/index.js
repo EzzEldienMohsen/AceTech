@@ -90,3 +90,5 @@ export const numbers = [
   { id: nanoid(), number: '4,000+', title: 'Photos' },
   { id: nanoid(), number: '4+', title: 'years of achievement' },
 ];
+export const who =
+  'https://acetechmarketing.com/wp-content/uploads/2023/01/0cd52ee7-ae57-4b1a-8860-91fc642dca87.jpg';
