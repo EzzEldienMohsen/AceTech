@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div
       data-theme={isDark ? 'luxury' : 'winter'}
-      className="w-full h-[100vh] box-border ease-in"
+      className="w-full  box-border ease-in"
     >
       <Header isDark={isDark} toggleTheme={toggleTheme} />
       <Outlet />
