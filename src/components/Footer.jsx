@@ -4,7 +4,7 @@ import Icons from './Icons';
 
 const Footer = () => {
   return (
-    <div className="px-5 py-8 flex flex-col justify-center items-center border-t-2 border-t-base-content md:flex-row md:justify-between md:gap-5">
+    <div className="px-5 py-8 flex flex-col justify-center items-center border-t-2 border-t-base-content lg:flex-row lg:justify-between md:gap-4">
       <div className="flex items-center justify-center mt-4 mb-2 gap-3 lg:gap-6">
         {pages.map((link) => {
           return (

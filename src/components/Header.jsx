@@ -9,9 +9,9 @@ const Header = ({ isDark, toggleTheme }) => {
   return (
     <div className="w-full grid grid-cols-8 gap-4 lg:flex justify-between px-5 py-3 items-center lg:px-10 lg:py-5">
       <Link to="/">
-        <img src={logo} className="col-span-6 " />
+        <img src={logo} className="col-span-5 " />
       </Link>
-      <div className="dropdown dropdown-end col-start-6  lg:hidden col-span-1">
+      <div className="dropdown dropdown-end col-start-5  lg:hidden col-span-2">
         <div tabIndex={0} role="button" className="  border-0  text-4xl ">
           <VscThreeBars />
         </div>
