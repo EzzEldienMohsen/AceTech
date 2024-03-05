@@ -7,7 +7,7 @@ const LandingCard = () => {
         return (
           <div
             key={card.id}
-            className="px-2 py-4 lg:ml-0 shadow-2xl bg-base-100 lg:h-[900px] rounded-md mb-4 border-base-content flex flex-col border border-spacing-4 items-start justify-start w-96 md:w-5/6 md:ml-16 lg:w-[30vw] "
+            className="px-4 py-4 lg:ml-0 shadow-2xl bg-base-100 lg:h-[900px] rounded-md mb-4 border-base-content flex flex-col border border-spacing-4 place-items-start justify-start w-96 md:w-5/6 md:ml-16 lg:w-[30vw] "
           >
             <img
               src={card.image}

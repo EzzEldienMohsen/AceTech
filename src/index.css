@@ -20,6 +20,12 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.ContactHero {
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/020/804/109/small/communication-and-technology-concept-hand-putting-wooden-block-cube-symbol-telephone-email-address-website-page-contact-us-or-e-mail-marketing-contact-us-in-customer-support-concept-photo.jpg');
+  background-size: fill;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 /* 
 :root {

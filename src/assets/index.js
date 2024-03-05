@@ -210,3 +210,8 @@ export const WebEng = [
     ],
   },
 ];
+export const initialValues = {
+  name: '',
+  email: '',
+  message: '',
+};

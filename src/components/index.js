@@ -5,3 +5,6 @@ export { default as Hero } from './Hero';
 export { default as LandingCard } from './LandingCard';
 export { default as Numbers } from './Numbers';
 export { default as ServiceSection } from './ServiceSection';
+export { default as ContactDetails } from './ContactDetails';
+export { default as FormRow } from './FormRow';
+export { default as Form } from './Form';
