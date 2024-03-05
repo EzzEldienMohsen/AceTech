@@ -88,4 +88,5 @@ export const numbers = [
   { id: nanoid(), number: '100,000$', title: 'Ads Spending' },
   { id: nanoid(), number: '500+', title: 'Minutes Of Video Production' },
   { id: nanoid(), number: '4,000+', title: 'Photos' },
+  { id: nanoid(), number: '4+', title: 'years of achievement' },
 ];
