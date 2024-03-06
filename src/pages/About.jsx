@@ -6,7 +6,7 @@ const About = () => {
     <div className="w-full flex-col flex justify-center items-center mb-12 px-5">
       <Hero backG="AboutHero" title="who are we?" />
       <div className="w-inherit flex  justify-center items-center mt-4 md:mt-8 lg:mt-12">
-        <h1 className="w-3/5 capitalize flex justify-center items-center tracking-wider mb-4  font-extrabold text-2xl md:text-3xl lg:text-5xl">
+        <h1 className="w-full md:w-3/5 capitalize flex justify-center items-center tracking-wide mb-4  font-semibold text-md md:text-xl lg:text-2xl">
           We’re a highly collaborative and supportive team, coming together on
           every project to ensure our clients get the very best result.
         </h1>
@@ -17,10 +17,10 @@ const About = () => {
         className="hidden  md:block md:w-3/5 lg:w-4/5 mt-4 md:mt-8 lg:mt-12"
       />
       <div className="w-inherit mb-2 flex-col md:flex-row flex justify-between items-center mt-6 md:mt-4 lg:mt-8">
-        <h1 className=" capitalize flex justify-center items-center tracking-wider mb-4 font-semibold text-xl md:text-2xl lg:text-3xl underline">
+        <h1 className=" capitalize flex justify-center items-center tracking-wider mb-4 font-normal text-md md:text-xl lg:text-3xl underline">
           who are we?
         </h1>
-        <p className="w-3/5 capitalize flex justify-center items-center tracking-wider  font-normal text-xl lg:text-2xl">
+        <p className="w-3/5 capitalize flex justify-center items-center tracking-wider  font-normal text-sm lg:text-2xl">
           We are a full stack marketing agency, holding a number of local and
           international companies in the Middle East by Providing them with
           integrated marketing activities, starting from data collection and
@@ -30,10 +30,10 @@ const About = () => {
         </p>
       </div>
       <div className="w-inherit flex-col md:flex-row flex justify-between items-center mt-4 md:mt-8 2">
-        <h1 className=" capitalize flex justify-center items-center tracking-wider mb-4 font-semibold text-xl md:text-2xl lg:text-3xl underline">
+        <h1 className=" capitalize flex justify-center items-center tracking-wider mb-4 font-normal text-md md:text-xl lg:text-2xl underline">
           Our Mission
         </h1>
-        <p className="w-3/5 capitalize flex justify-center items-center tracking-wider font-normal text-xl lg:text-2xl">
+        <p className="w-3/5 capitalize flex justify-center items-center tracking-wider font-normal text-sm lg:text-xl">
           We aim to deliver high quality marketing solutions to different sizes
           of businesses allowing them to reduce fixed marketing department
           costs, allowing them to achieve their marketing objectives with the
@@ -42,10 +42,10 @@ const About = () => {
       </div>
 
       <div className="w-inherit flex-col md:flex-row flex justify-between items-center mt-4 md:mt-8 2">
-        <h1 className=" capitalize flex justify-center items-center tracking-wider mb-4 font-semibold text-xl md:text-2xl lg:text-3xl underline">
+        <h1 className=" capitalize flex justify-center items-center tracking-wider mb-4 font-normal text-md md:text-xl lg:text-2xl underline">
           Our values
         </h1>
-        <p className="w-3/5 capitalize flex justify-center items-center tracking-wider font-normal text-xl lg:text-2xl">
+        <p className="w-3/5 capitalize flex justify-center items-center tracking-wider font-normal text-sm lg:text-xl">
           Commitment as we adhere to what is needed to be done in the lights of
           our ethics. Making It Happen as we are all a group of very creative
           People that can come with several solutions for the same concern

@@ -2,22 +2,22 @@ import { landingCards } from '../assets';
 
 const LandingCard = () => {
   return (
-    <div className="flex flex-col justify-between px-5   items-start mb-8 gap-4 lg:flex-row lg:flex-wrap ">
+    <div className="flex flex-col justify-between md:grid md:grid-cols-2 px-5 lg:flex  items-start mb-8 gap-4 lg:flex-row lg:flex-wrap ">
       {landingCards.map((card) => {
         return (
           <div
             key={card.id}
-            className="px-4 py-4 lg:ml-0 shadow-2xl bg-base-100 lg:h-[900px] rounded-md mb-4 border-base-content flex flex-col border border-spacing-4 place-items-start justify-start w-96 md:w-5/6 md:ml-16 lg:w-[30vw] "
+            className="px-4 py-4 lg:ml-0 shadow-2xl md:h-[600px] bg-base-100 lg:h-[800px] rounded-md mb-4 border-base-content flex flex-col  border border-spacing-4 place-items-start justify-start w-80 md:w-80 md:ml-16 lg:w-[30vw] "
           >
             <img
               src={card.image}
               alt="image"
-              className="rounded-t-md bg-inherit  w-full h-[380px]"
+              className="rounded-t-md bg-inherit  "
             />
-            <h1 className="font-semibold text-3xl md:3xl lg:text-3xl my-4">
+            <h1 className="font-semibold text-lg md:2xl lg:text-xl my-4">
               {card.title}
             </h1>
-            <p className="text-xl md:3xl lg:text-2xl">{card.text}</p>
+            <p className="text-md md:xl lg:text-xl">{card.text}</p>
           </div>
         );
       })}

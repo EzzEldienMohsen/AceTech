@@ -5,13 +5,13 @@ const ServiceSection = ({ title, secondTitle, array, height }) => {
   return (
     <div className="mt-6 md:mt-8 lg:mt-12 flex flex-col w-full bg-transparent border-b-2 border-primary pb-6 justify-start items-start">
       <h1
-        className={`text-3xl ${
+        className={`text-xl ${
           height ? 'hidden' : ''
-        } md:text-4xl lg:text-6xl underline font-bold w-full flex bg-transparent justify-center capitalize`}
+        } md:text-2xl lg:text-3xl underline font-bold w-full flex bg-transparent justify-center capitalize`}
       >
         {title}
       </h1>
-      <h2 className="mt-6 md:mt-8 lg:mt-12 w-full bg-transparent flex font-semibold justify-center mb-4 md:justify-start text-2xl md:text-3xl lg:text-4xl">
+      <h2 className="mt-6 md:mt-8 lg:mt-12 w-full bg-transparent flex font-semibold justify-center mb-4 md:justify-start text-lg md:text-xl lg:text-xl">
         {secondTitle}
       </h2>
       <div className="flex flex-col md:gap-4 w-full justify-center items-center md:flex-row ">
@@ -23,7 +23,7 @@ const ServiceSection = ({ title, secondTitle, array, height }) => {
             >
               {card.list.map((txt) => {
                 return (
-                  <li key={txt} className="text-2xl md:text-xl">
+                  <li key={txt} className="text-lg md:text-xl">
                     {txt}
                   </li>
                 );
