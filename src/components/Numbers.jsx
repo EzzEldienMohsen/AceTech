@@ -1,4 +1,5 @@
 import { numbers } from '../assets';
+import Number from './Number';
 
 const Numbers = () => {
   return (
@@ -13,8 +14,7 @@ const Numbers = () => {
               key={number.id}
               className="flex flex-col capitalize justify-center items-center  mb-6 mr-6"
             >
-              <h1 className="mb-2">{number.number}</h1>
-              <h1>{number.title}</h1>
+              <Number title={number.title} number={number.number} />
             </div>
           );
         })}
