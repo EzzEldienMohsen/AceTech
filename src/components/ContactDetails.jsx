@@ -2,7 +2,7 @@ import TheIcons from './TheIcons';
 
 const ContactDetails = () => {
   return (
-    <div className="flex mb-4 flex-col w-full lg:w-1/2 bg-transparent justify-start items-start p-5 border-2 border-secondary rounded-lg shadow-2xl">
+    <div className="flex  md:h-[450px] mb-4 md:w-4/5  flex-col w-full lg:w-1/2 bg-transparent justify-evenly lg:border-0 lg:shadow-none items-start p-5 border-2 border-secondary rounded-lg shadow-2xl">
       <h1 className="text-lg md:text-2xl lg:text-xl underline capitalize mb-4">
         you can find us at
       </h1>

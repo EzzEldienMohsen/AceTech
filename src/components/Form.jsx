@@ -16,7 +16,7 @@ const Form = () => {
   return (
     <form
       onSubmit={onSubmit}
-      className="flex flex-col w-full md:h-[432px] lg:w-2/5 bg-transparent justify-start lg:justify-evenly items-start p-5 border-2 border-secondary rounded-lg shadow-2xl"
+      className="flex flex-col w-full md:h-[450px] md:w-4/5 lg:w-2/5 bg-transparent justify-start md:justify-evenly items-start lg:border-0 lg:shadow-none p-5 border-2 border-secondary rounded-lg shadow-2xl"
     >
       <FormRow
         name="name"

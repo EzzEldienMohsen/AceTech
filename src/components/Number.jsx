@@ -29,8 +29,8 @@ const Number = ({ number, title, theNumber }) => {
 
   return (
     <>
-      <h1 className="mb-2">{count + theNumber}</h1>
-      <h1>{title}</h1>
+      <h1 className="stat-value mb-2">{count + theNumber}</h1>
+      <h1 className="stat-title">{title}</h1>
     </>
   );
 };

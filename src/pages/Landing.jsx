@@ -4,6 +4,7 @@ import SecondaryCarousel from './../components/SecondaryCarousel';
 
 const Landing = () => {
   const [component, setComponent] = React.useState([]);
+
   return (
     <div className="w-full">
       <Hero backG="LandingHero" title="ace tech marketing solution" />
