@@ -43,7 +43,7 @@ const LandingCard = ({ setComponent }) => {
               size="md"
               onClose={() => setOpenModal(false)}
               dismissible
-              className="bg-transparent/5"
+              className="bg-transparent/10"
             >
               <TheModal />
             </Modal>
