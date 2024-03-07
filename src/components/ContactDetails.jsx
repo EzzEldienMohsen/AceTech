@@ -1,4 +1,4 @@
-import Icons from './Icons';
+import TheIcons from './TheIcons';
 
 const ContactDetails = () => {
   return (
@@ -30,7 +30,7 @@ const ContactDetails = () => {
           Zahraa Al Maadi 50 St, Saint Anthony Church Square, Cairo, Egypt
         </p>
       </div>
-      <Icons />
+      <TheIcons />
     </div>
   );
 };
