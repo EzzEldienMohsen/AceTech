@@ -14,7 +14,11 @@ const Numbers = () => {
               key={number.id}
               className="flex flex-col capitalize justify-center items-center  mb-6 mr-6"
             >
-              <Number title={number.title} number={number.number} />
+              <Number
+                title={number.title}
+                number={number.number}
+                theNumber={number.TheNumber}
+              />
             </div>
           );
         })}

@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-const Number = ({ number, title }) => {
+const Number = ({ number, title, theNumber }) => {
   const [count, setCount] = React.useState(0);
   const [start, setStart] = React.useState(true);
   const timerIdRef = React.useRef(null);
@@ -29,7 +29,7 @@ const Number = ({ number, title }) => {
 
   return (
     <>
-      <h1 className="mb-2">{count}</h1>
+      <h1 className="mb-2">{count + theNumber}</h1>
       <h1>{title}</h1>
     </>
   );
