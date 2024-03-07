@@ -2,7 +2,6 @@
 import { landingCards } from '../assets';
 import { Button, Modal } from 'flowbite-react';
 import { useState } from 'react';
-import TheModal from './TheModal';
 
 const LandingCard = ({ setComponent }) => {
   const [openModal, setOpenModal] = useState(false);
@@ -27,14 +26,18 @@ const LandingCard = ({ setComponent }) => {
             <a href="#sample" className="my-2 btn-block  btn-primary">
               <button
                 className="btn btn-block  btn-primary"
-                onClick={() => setComponent(() => card.samples)}
+                onClick={() => {
+                  setComponent(() => card.samples);
+                }}
               >
                 Show Samples
               </button>
             </a>
             <Button
               className="btn btn-block  btn-primary"
-              onClick={() => setOpenModal(true)}
+              onClick={() => {
+                setOpenModal(true);
+              }}
             >
               Toggle modal
             </Button>
@@ -45,7 +48,20 @@ const LandingCard = ({ setComponent }) => {
               dismissible
               className="bg-transparent/10"
             >
-              <TheModal />
+              <Modal.Header />
+              <Modal.Body>
+                <div className="flex  my-3 px-4 md:grid md:grid-cols-2 md:gap-2 flex-wrap  justify-between items-stretch">
+                  {card.samples.map((img) => {
+                    return (
+                      <img
+                        src={img.img}
+                        key={img.id}
+                        className="w-36 h-36 my-2"
+                      />
+                    );
+                  })}
+                </div>
+              </Modal.Body>
             </Modal>
           </div>
         );

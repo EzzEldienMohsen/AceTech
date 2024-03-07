@@ -1,4 +1,19 @@
 import { nanoid } from 'nanoid';
+import one from './Samples/00000.jpg';
+import two from './Samples/11.jpg';
+import three from './Samples/15.jpg';
+import four from './Samples/17.jpg';
+import five from './Samples/2.jpg';
+import six from './Samples/3.jpg';
+import seven from './Samples/66666.jpg';
+import eight from './Samples/9.jpg';
+import nine from './Samples/Artboard 3-1.jpg';
+import ten from './Samples/BOBBA.jpg';
+import eleven from './Samples/dark chocolate.jpg';
+import twilv from './Samples/Dates and almonds.jpg';
+import thirteen from './Samples/giveaway.jpg';
+import fourteen from './Samples/hair t.jpg';
+import fifteen from './Samples/mix of chocolates.jpg';
 
 export const logo =
   'https://acetechmarketing.com/wp-content/uploads/2023/02/golden-logo-for-site--91x91.png';
@@ -18,27 +33,63 @@ export const landingCards = [
     samples: [
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: one,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: two,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: three,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: four,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: five,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: six,
+      },
+      {
+        id: nanoid(),
+        img: seven,
+      },
+      {
+        id: nanoid(),
+        img: eight,
+      },
+      {
+        id: nanoid(),
+        img: nine,
+      },
+      {
+        id: nanoid(),
+        img: ten,
+      },
+      {
+        id: nanoid(),
+        img: eleven,
+      },
+      {
+        id: nanoid(),
+        img: twilv,
+      },
+      {
+        id: nanoid(),
+        img: thirteen,
+      },
+      {
+        id: nanoid(),
+        img: fourteen,
+      },
+      {
+        id: nanoid(),
+        img: fifteen,
       },
     ],
   },
@@ -51,27 +102,63 @@ export const landingCards = [
     samples: [
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: one,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: two,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: three,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: four,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: five,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: six,
+      },
+      {
+        id: nanoid(),
+        img: seven,
+      },
+      {
+        id: nanoid(),
+        img: eight,
+      },
+      {
+        id: nanoid(),
+        img: nine,
+      },
+      {
+        id: nanoid(),
+        img: ten,
+      },
+      {
+        id: nanoid(),
+        img: eleven,
+      },
+      {
+        id: nanoid(),
+        img: twilv,
+      },
+      {
+        id: nanoid(),
+        img: thirteen,
+      },
+      {
+        id: nanoid(),
+        img: fourteen,
+      },
+      {
+        id: nanoid(),
+        img: fifteen,
       },
     ],
   },
@@ -84,27 +171,63 @@ export const landingCards = [
     samples: [
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: one,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: two,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: three,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: four,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: five,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: six,
+      },
+      {
+        id: nanoid(),
+        img: seven,
+      },
+      {
+        id: nanoid(),
+        img: eight,
+      },
+      {
+        id: nanoid(),
+        img: nine,
+      },
+      {
+        id: nanoid(),
+        img: ten,
+      },
+      {
+        id: nanoid(),
+        img: eleven,
+      },
+      {
+        id: nanoid(),
+        img: twilv,
+      },
+      {
+        id: nanoid(),
+        img: thirteen,
+      },
+      {
+        id: nanoid(),
+        img: fourteen,
+      },
+      {
+        id: nanoid(),
+        img: fifteen,
       },
     ],
   },
@@ -117,27 +240,63 @@ export const landingCards = [
     samples: [
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: one,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: two,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: three,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: four,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: five,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: six,
+      },
+      {
+        id: nanoid(),
+        img: seven,
+      },
+      {
+        id: nanoid(),
+        img: eight,
+      },
+      {
+        id: nanoid(),
+        img: nine,
+      },
+      {
+        id: nanoid(),
+        img: ten,
+      },
+      {
+        id: nanoid(),
+        img: eleven,
+      },
+      {
+        id: nanoid(),
+        img: twilv,
+      },
+      {
+        id: nanoid(),
+        img: thirteen,
+      },
+      {
+        id: nanoid(),
+        img: fourteen,
+      },
+      {
+        id: nanoid(),
+        img: fifteen,
       },
     ],
   },
@@ -150,27 +309,63 @@ export const landingCards = [
     samples: [
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: one,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: two,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: three,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: four,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: five,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: six,
+      },
+      {
+        id: nanoid(),
+        img: seven,
+      },
+      {
+        id: nanoid(),
+        img: eight,
+      },
+      {
+        id: nanoid(),
+        img: nine,
+      },
+      {
+        id: nanoid(),
+        img: ten,
+      },
+      {
+        id: nanoid(),
+        img: eleven,
+      },
+      {
+        id: nanoid(),
+        img: twilv,
+      },
+      {
+        id: nanoid(),
+        img: thirteen,
+      },
+      {
+        id: nanoid(),
+        img: fourteen,
+      },
+      {
+        id: nanoid(),
+        img: fifteen,
       },
     ],
   },
@@ -183,27 +378,63 @@ export const landingCards = [
     samples: [
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: one,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: two,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: three,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: four,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: five,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: six,
+      },
+      {
+        id: nanoid(),
+        img: seven,
+      },
+      {
+        id: nanoid(),
+        img: eight,
+      },
+      {
+        id: nanoid(),
+        img: nine,
+      },
+      {
+        id: nanoid(),
+        img: ten,
+      },
+      {
+        id: nanoid(),
+        img: eleven,
+      },
+      {
+        id: nanoid(),
+        img: twilv,
+      },
+      {
+        id: nanoid(),
+        img: thirteen,
+      },
+      {
+        id: nanoid(),
+        img: fourteen,
+      },
+      {
+        id: nanoid(),
+        img: fifteen,
       },
     ],
   },
@@ -216,27 +447,63 @@ export const landingCards = [
     samples: [
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: one,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: two,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: three,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: four,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: five,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: six,
+      },
+      {
+        id: nanoid(),
+        img: seven,
+      },
+      {
+        id: nanoid(),
+        img: eight,
+      },
+      {
+        id: nanoid(),
+        img: nine,
+      },
+      {
+        id: nanoid(),
+        img: ten,
+      },
+      {
+        id: nanoid(),
+        img: eleven,
+      },
+      {
+        id: nanoid(),
+        img: twilv,
+      },
+      {
+        id: nanoid(),
+        img: thirteen,
+      },
+      {
+        id: nanoid(),
+        img: fourteen,
+      },
+      {
+        id: nanoid(),
+        img: fifteen,
       },
     ],
   },
@@ -249,27 +516,63 @@ export const landingCards = [
     samples: [
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: one,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: two,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: three,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: four,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: five,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: six,
+      },
+      {
+        id: nanoid(),
+        img: seven,
+      },
+      {
+        id: nanoid(),
+        img: eight,
+      },
+      {
+        id: nanoid(),
+        img: nine,
+      },
+      {
+        id: nanoid(),
+        img: ten,
+      },
+      {
+        id: nanoid(),
+        img: eleven,
+      },
+      {
+        id: nanoid(),
+        img: twilv,
+      },
+      {
+        id: nanoid(),
+        img: thirteen,
+      },
+      {
+        id: nanoid(),
+        img: fourteen,
+      },
+      {
+        id: nanoid(),
+        img: fifteen,
       },
     ],
   },
@@ -282,27 +585,63 @@ export const landingCards = [
     samples: [
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: one,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: two,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: three,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: four,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: five,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: six,
+      },
+      {
+        id: nanoid(),
+        img: seven,
+      },
+      {
+        id: nanoid(),
+        img: eight,
+      },
+      {
+        id: nanoid(),
+        img: nine,
+      },
+      {
+        id: nanoid(),
+        img: ten,
+      },
+      {
+        id: nanoid(),
+        img: eleven,
+      },
+      {
+        id: nanoid(),
+        img: twilv,
+      },
+      {
+        id: nanoid(),
+        img: thirteen,
+      },
+      {
+        id: nanoid(),
+        img: fourteen,
+      },
+      {
+        id: nanoid(),
+        img: fifteen,
       },
     ],
   },
@@ -315,27 +654,63 @@ export const landingCards = [
     samples: [
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: one,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: two,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: three,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: four,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: five,
       },
       {
         id: nanoid(),
-        img: 'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
+        img: six,
+      },
+      {
+        id: nanoid(),
+        img: seven,
+      },
+      {
+        id: nanoid(),
+        img: eight,
+      },
+      {
+        id: nanoid(),
+        img: nine,
+      },
+      {
+        id: nanoid(),
+        img: ten,
+      },
+      {
+        id: nanoid(),
+        img: eleven,
+      },
+      {
+        id: nanoid(),
+        img: twilv,
+      },
+      {
+        id: nanoid(),
+        img: thirteen,
+      },
+      {
+        id: nanoid(),
+        img: fourteen,
+      },
+      {
+        id: nanoid(),
+        img: fifteen,
       },
     ],
   },
