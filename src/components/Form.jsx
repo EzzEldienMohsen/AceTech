@@ -1,7 +1,15 @@
 import React from 'react';
 import FormRow from './FormRow';
 import { initialValues } from '../assets';
-
+import { autoFetch } from '../utils';
+const request = async (data)=>{
+  try {
+    const resp = await autoFetch.post("",data)
+    console.log(resp.data)
+  } catch (error) {
+    console.log(error)
+  }
+};
 const Form = () => {
   const [values, setValues] = React.useState(initialValues);
   const handleChange = (e) => {
@@ -12,9 +20,11 @@ const Form = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     console.log(values);
+    request(values)
   };
   return (
     <form
+    method='post'
       onSubmit={onSubmit}
       className="flex flex-col w-full md:h-[450px] md:w-4/5 lg:w-2/5 bg-transparent justify-start md:justify-evenly items-start lg:border-0 lg:shadow-none p-5 border-2 border-secondary rounded-lg shadow-2xl"
     >

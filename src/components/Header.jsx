@@ -5,13 +5,41 @@ import { VscThreeBars } from 'react-icons/vsc';
 import logo from '../assets/golden-logo-for-site--91x91.png';
 import { pages } from '../assets';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import React from 'react';
+import { motion } from 'framer-motion';
+
 const Header = ({ isDark, toggleTheme }) => {
+   const [isScrolled, setIsScrolled] = React.useState(false);
+
+   React.useEffect(() => {
+     AOS.init();
+     AOS.refresh();
+     const handleScroll = () => {
+       const scrollPosition = window.scrollY;
+       const threshold = 300;
+       setIsScrolled(scrollPosition > threshold);
+     };
+     window.addEventListener('scroll', handleScroll);
+
+     return () => {
+       window.removeEventListener('scroll', handleScroll);
+     };
+   }, []);
   return (
-    <div className="w-full grid grid-cols-8 gap-4 lg:flex justify-between px-5 py-3 items-center lg:px-10 lg:py-5">
+    <motion.div
+      data-aos="fade-down"
+      data-aos-duration="2000"
+      transition={{ duration: 0.5, ease: 'easeInOut' }}
+      initial="bg-transparent"
+      animate={isScrolled ? 'bg-primary' : 'bg-transparent'}
+      className="w-full grid grid-cols-8 gap-4 lg:flex justify-between px-5 py-3 items-center lg:px-10 lg:py-5"
+    >
       <Link to="/">
         <img
           src={logo}
-          className="col-span-5 w-[30px] h-[30px] lg:w-[91px] lg:h-[91px] md:w-[50px] md:h-[50px]"
+          className="motion col-span-5 w-[30px] h-[30px] lg:w-[91px] lg:h-[91px] md:w-[50px] md:h-[50px]"
         />
       </Link>
       <div className="dropdown dropdown-end col-start-5  lg:hidden col-span-2">
@@ -53,7 +81,7 @@ const Header = ({ isDark, toggleTheme }) => {
       >
         {isDark ? <FaRegMoon /> : <FaRegSun />}
       </button>
-    </div>
+    </motion.div>
   );
 };
 
